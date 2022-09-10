@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 
 import Header from './components/Header/Header';
-import MainPage from './components/pages/MainPage';
+import MainPage from './components/pages/MainPage/MainPage';
 
 function App() {
   const [windowSize, setWindowSize] = useState(getWindowSize());
